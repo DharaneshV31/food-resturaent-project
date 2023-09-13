@@ -1,0 +1,49 @@
+h1{
+    
+    color:brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+body{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.box h3{
+     color:red;
+     font-family: sans-serif;
+     font-size: 30px;
+    
+}
+.box{
+    display:inline-block;
+    width:50%;
+    font-size: 20px;
+   padding-left: 300px;
+   
+    
+}
+#contact{
+    font-size: 35px;
+    color:black;
+    text-align: center;
+    padding-top: 100px;
+}
+.location{
+    display:flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    flex-wrap:wrap;
+}
+.location h2{
+  color:brown;   
+  margin-bottom: .8em;
+}
+.location div{
+    flex:1;
+    padding:1em;
+}
